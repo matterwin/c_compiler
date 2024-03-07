@@ -3,7 +3,8 @@
 
 class Sym {
 public:
-  static const EOF = 0;
-}
+  static const int _EOF = 0;
+  static const int CHARACTER = 1;
+};
 
 #endif
